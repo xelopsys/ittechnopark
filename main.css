@@ -211,12 +211,24 @@ textarea{
   justify-content: space-between;
   align-items: center;
   align-content: space-between;
-  padding: 50px;
+  padding: 30px;
   border-radius: 70px;
   background-color: rgba(255, 241, 241, 0.486);
 
 }
 
+.vid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.vid > video{
+  border-radius: 15px;
+}
 
 .frame2{
   width: 90%;
@@ -513,6 +525,33 @@ select{
     margin-top: 30px;
     text-align: center;
   }
+  .inputt > input{
+    width: 100%!important;
+  }
+  .vid > video{
+    width: 80%!important;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .inputt > select{
+    width: 100%!important;
+  }
+  .inputt > button{
+    width: 100%!important;
+  }
+  .inputt > textarea{
+    width: 100%!important;
+  }
+  .soz1{
+    width: 100%!important;
+    padding: 0;
+    margin: 0;
+  }
+
 
 }
 @media screen and (max-width: 991px){
