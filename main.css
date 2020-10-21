@@ -562,6 +562,18 @@ select{
     justify-content: center;
     text-align: center;
   }
+  .col2{
+    margin: 15px 0 15px 0;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    word-break: break-all;
+    word-wrap: break-word;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
 
 }
