@@ -552,6 +552,16 @@ select{
     padding: 0;
     margin: 0;
   }
+  .col4{
+
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
 
 
 }
