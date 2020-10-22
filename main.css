@@ -132,6 +132,7 @@ textarea{
     display: flex;
     flex-wrap: wrap;
     word-wrap: break-word;
+    word-break: break-word;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -155,7 +156,7 @@ textarea{
   margin: 0!important;
   width: auto!important;
   word-wrap: break-word;
-  word-break: break-all!important;
+  word-break: break-word!important;
   display: grid;
   flex-wrap: wrap;
   flex-direction: column;
@@ -175,7 +176,7 @@ textarea{
 
   width: auto!important;
   word-wrap: break-word;
-  word-break: break-all!important;
+  word-break: break-word!important;
   display: grid;
   flex-wrap: wrap;
   flex-direction: column;
@@ -193,7 +194,7 @@ textarea{
 
   width: auto!important;
   word-wrap: break-word;
-  word-break: break-all!important;
+  word-break: break-word!important;
   display: grid;
   flex-wrap: wrap;
   flex-direction: column;
@@ -336,7 +337,7 @@ textarea{
   align-items: center;
   text-align: left;
   word-wrap: break-word;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .img{
@@ -354,7 +355,7 @@ select{
   display: grid;
   flex-wrap: wrap;
   flex-direction: column;
-  word-break: break-all;
+  word-break: break-word;
   word-wrap: break-word;
   justify-content: flex-start;
   align-content: flex-start;
@@ -571,7 +572,7 @@ select{
     display: grid;
     flex-wrap: wrap;
     flex-direction: column;
-    word-break: break-all;
+    word-break: break-word;
     word-wrap: break-word;
     justify-content: center;
     align-content: center;
@@ -598,7 +599,7 @@ select{
     align-items: center;
     text-align: center;
     word-wrap: break-word;
-    word-break: break-all;
+    word-break: break-word;
   }
 }
 
