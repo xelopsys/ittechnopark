@@ -54,7 +54,7 @@ nav{
 
 .btt{
   width: 50%!important;
-  padding: 15px;
+  padding: 10px;
 }
 
 textarea{
@@ -164,8 +164,8 @@ textarea{
   align-items: center;
 }
 .logo{
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
 }
 
 .div1{
@@ -367,7 +367,7 @@ select{
 }
 
 .about1{
-  width: 80%;
+  width: 70%;
 }
 .col3{
 
@@ -472,7 +472,11 @@ select{
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 } */
-
+@media screen and (max-width: 767px){
+  .about1{
+    width: 75%;
+  }
+}
 
 @media only screen and (max-width: 880px){
   .div .column{
@@ -573,6 +577,13 @@ select{
     align-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .row1{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 0;
   }
 
 
