@@ -622,6 +622,10 @@ select{
     border: none;
     margin: 0;
   }
+  .webinfo{
+    font-size: 16px!important;
+    padding: 10px;
+  }
 
 
 }
