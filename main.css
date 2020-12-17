@@ -253,6 +253,7 @@ textarea{
 }
 
 .vid{
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -261,8 +262,10 @@ textarea{
   align-content: center;
 }
 
-.vid > video{
+.vid > iframe{
   border-radius: 15px;
+  width: 700px;
+  height: 400px;
 }
 
 .frame2{
@@ -534,6 +537,10 @@ select{
 @media screen and (max-width: 767px){
   .about1{
     width: 75%;
+  }
+  .vid > iframe{
+    width: 500px;
+    height: 300px;
   }
 }
 
