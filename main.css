@@ -9,6 +9,13 @@
   background-color: darkred;
 }
 
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 .frame{
     width: 80px;
     height: auto;
@@ -77,7 +84,7 @@ header{
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: rgba(192, 191, 191, 0.651);
+  background-color: rgb(236, 236, 236);
   margin: 70px;
 }
 .circle img{
@@ -542,6 +549,29 @@ select{
   .col-12 {width: 100%;}
 } */
 @media screen and (max-width: 767px){
+  *{
+
+    margin: 0;
+    padding: 0;
+  }
+  .haq{
+    margin-right: auto;
+    width: 100%;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-break: keep-all;
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .haq>h1{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+  }
   .about1{
     width: 75%;
   }
@@ -554,6 +584,20 @@ select{
   .gap>h1{
     font-size: 25px;
     margin-bottom: 20px;
+  }
+
+  .mapp{
+    width: 100%;
+    margin: 0!important;
+    padding: 0!important;
+  }
+  .map{
+    width: 100%;
+    margin: 0!important;
+    padding: 0!important;
+  }
+  .tea{
+    margin-left: auto;
   }
 }
 
@@ -568,6 +612,8 @@ select{
     align-content: center;
     margin: 0!important;
     padding: 0!important;
+    word-wrap: break-word;
+    word-break: keep-all;
   }
   .div1{
     width: auto!important;
@@ -579,6 +625,8 @@ select{
     align-content: center;
     margin: 0;
     padding: 0;
+    word-wrap: break-word;
+    word-break: keep-all;
   }
   .div2{
     width: auto!important;
@@ -590,18 +638,10 @@ select{
     align-content: center;
     margin: 0;
     padding: 0;
+    word-wrap: break-word;
+    word-break: keep-all;
   }
-  .div2{
-    width: auto!important;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin: 0;
-    padding: 0;
-  }
+
   .animation-wrapper{
     width: 85%;
   }
