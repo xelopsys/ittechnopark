@@ -1,2 +1,2 @@
-# itparktechno
+# ittechnopark
 IT park website
