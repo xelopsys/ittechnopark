@@ -526,7 +526,7 @@ code{
   justify-content: center;
   align-items: center;
   align-content: center;
-  text-align: left;
+  text-align: justify;
   width: 100%;
   font-size: 25px;
 }
