@@ -638,6 +638,16 @@ code{
   h2{
     font-size: 25px;
   }
+  .webpage{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .webinfo{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 880px){
