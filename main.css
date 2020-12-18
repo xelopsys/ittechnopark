@@ -581,7 +581,10 @@ code{
 }
 
 .chroma span{
-  color: rgb(0, 0, 165);
+  width: fit-content;
+  word-wrap: none;
+  word-break: keep-all;
+  color: rgb(196, 0, 0);
 }
 
 .column{
