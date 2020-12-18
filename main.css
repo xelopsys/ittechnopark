@@ -571,6 +571,12 @@ code{
   word-break: keep-all;
   margin: 0;
 }
+.chroma{
+  width: 100%;
+  height: auto;
+  margin: 0!important;
+  padding: 0!important;
+}
 
 .chroma span{
   color: rgb(0, 0, 165);
