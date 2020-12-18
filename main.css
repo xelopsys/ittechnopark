@@ -572,6 +572,10 @@ code{
   margin: 0;
 }
 
+.chroma span{
+  color: rgb(0, 0, 165);
+}
+
 .column{
   margin:   0;
 
