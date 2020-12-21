@@ -1,5 +1,5 @@
 function loader() {
-    myVar = setTimeout(loader_main, 3000);
+    myVar = setTimeout(loader_main, 3500);
   }
   
   function loader_main() {
